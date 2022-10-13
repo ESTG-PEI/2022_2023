@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Exemplo da aula TP (slide 42) -->
-<pessoa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "pessoaTypes.xsd" genero="M">   
+<pessoa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="pessoaTypes.xsd" genero="M">
     <primeiroNome>Fernando</primeiroNome>
     <ultimoNome>Santos</ultimoNome>
 </pessoa>
