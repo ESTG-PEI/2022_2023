@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="emailTypes.xsd" >
+    <email type = "Personal">
+        <to>Tove@gmail.com</to>
+        <from>Jani@gmail.com</from>
+        <heading>Reunião</heading>
+        <date format = "yyyy-mm-dd">2017-10-02</date>
+        <body>Olá, tudo bem?</body>
+    </email>
+    <email type = "Personal">
+        <to>Tove@gmail.com</to>
+        <from>Jani@gmail.com</from>
+        <heading>Reunião</heading>
+        <date format = "yyyy-mm-dd">2017-10-02</date>
+        <body>Olá, tudo bem?</body>
+    </email>
+    <email type = "Professional">
+        <to>Tove@gmail.com</to>
+        <from>Jani@gmail.com</from>
+        <heading>Reunião</heading>
+        <date format = "yyyy-mm-dd">2017-10-02</date>
+        <body>Olá, tudo bem?</body>
+    </email>
+    <email type = "Personal">
+        <to>Tove@gmail.com</to>
+        <from>Jani@gmail.com</from>
+        <heading>Reunião</heading>
+        <date format = "yyyy-mm-dd">2017-10-02</date>
+        <body>Olá, tudo bem?</body>
+    </email>
+</emails>
