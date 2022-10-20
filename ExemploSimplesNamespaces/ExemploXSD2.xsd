@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    targetNamespace="http://www.estg.ipp.pt" xmlns="http://www.estg.ipp.pt">
+    <xs:element name="pessoas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="pessoa" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="pessoa" type="tipoPessoa"/>
+    
+    <xs:complexType name="tipoPessoa">
+        <xs:sequence>
+            <xs:element name="primeiroNome" type="xs:string"/>
+            <xs:element name="ultimoNome" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

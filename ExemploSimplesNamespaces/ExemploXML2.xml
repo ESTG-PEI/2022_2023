@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pessoas 
+    xmlns="http://www.estg.ipp.pt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="ExemploXSD2.xsd">
+    <pessoa>
+        <primeiroNome>Pedro</primeiroNome>
+        <ultimoNome>Pinto</ultimoNome>
+    </pessoa>
+    <pessoa>
+        <primeiroNome>Fernando</primeiroNome>
+        <ultimoNome>Santos</ultimoNome>
+    </pessoa>
+    
+</pessoas>
+
