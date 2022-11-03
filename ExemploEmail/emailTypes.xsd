@@ -11,9 +11,9 @@
 
     <xs:complexType name="emailType">
         <xs:sequence>
-            <xs:element name="to" type="emailDataType"></xs:element>
-            <xs:element name="from" type="emailDataType"></xs:element>
-            <xs:element name="heading" type="xs:string"></xs:element>
+            <xs:element name="to" type="emailDataType"/>
+            <xs:element name="from" type="emailDataType"/>
+            <xs:element name="heading" type="xs:string"/>
             <xs:element name="date"  minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                     <xs:simpleContent>
